@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/shopping.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="name_container">
+
+		</div>
+		<div id="shopping_form">
+			<input id="item_name" type="text" name="item_name" placeholder="Name">
+			<input id="item_quantity" type="number" name="item_quantity" placeholder="Quantity">
+			<button type="button" name="add_item" onclick="add_new_item()">Add new item</button>
+		</div>
+		<div id="shopping_list">
+			<table id="items_table">
+			</table>
+		</div>
+		<script type="text/javascript">
+			check_shopping_info();
+		</script>
+	</body>
+</html>
